@@ -1,1 +1,24 @@
-
+_characteristics() -> Dictionary:
+	return {
+		"id": id,
+		"name": Potname,
+		#"icon": icon, # Иконка не используется в CSV
+		"effect": effect,
+		"description": description,
+		"complexity": complexity,
+		"tolerance": tolerance,
+		"taste": taste, # это уже содержит информацию о вкусе
+		"taste_x": taste_x, # добавлено
+		"taste_y": taste_y, # добавлено
+		"smell_type": smell_type,
+		"smell_intensity": smell_intensity,
+		"smell_degree": smell_degree,
+		"smell": smell, # это уже содержит информацию о запахе
+		"color": color, 
+		"color_r": color_r, 
+		"color_g": color_g, 
+		"color_b": color_b, 
+		"viscosity": viscosity,
+		"temperature": temperature,
+		"difficalte": difficalte 
+	}
